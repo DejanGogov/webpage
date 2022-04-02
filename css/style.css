@@ -34,7 +34,7 @@ Variables
 
  body{
      font-family: var(--ff-primary);
-     /* background: var(--clr-white); */
+     background: var(--clr-white);
      color:var(--clr-gray-1);
      line-height: 1.5;
      font-size: 0.875;
@@ -148,7 +148,7 @@ Variables
     background: var(--clr-primery-light);
 }
 
-/* Skils */
+/* Skils Section Start */
 
 .skills { 
     background: var(--clr-gray-10);
@@ -193,28 +193,128 @@ Variables
 }
 .skill:hover {
 border-bottom: 1px solid #a8682c;}
+    /* Skils Section End */
+      
 
 
- @media screen and (min-width:576px) {
+
+/* about section Start */
+.about {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+
+.about-img {
+    padding: 2rem;
+}
+
+.about-right {
+
+    text-align: center;
+    
+
+}
+.about-title{
+    margin: 1rem;
+}
+.about-title h3 {
+    font-family: var(--ff-secondary);
+    
+}
+.about-title h2 {
+    text-transform: uppercase;
+}
+
+
+
+.about-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: var(--clr-primery);
+    color: var(--clr-white);
+    padding: 0.75rem 1rem;
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    transition: var(--transition);
+    font-size: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.about-btn:hover {
+    background-color: var(--clr-gray-1);
+    color: var(--clr-white);
+}
+/* about Section END */
+
+
+    
+
+
+
+
+
+
+
+
+
+
+/* Media Query  */
+
+@media screen and (min-width: 992px) {
+    .about-img,
+    .about-info {
+      float: left;
+      width: 50%;
+ }
+
+ .about-img {
+     margin:6rem;
+     padding-left: 5rem;
+    
+ }
+ .about-right {
+     padding-top: 7rem;
+     padding-right: 1rem;
+     text-align: justify;
+     
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) {
     .skill {
         float: left;
         height: 210px;
         width: 50%;  
         background-color: var(--clr-gray-10);  
     }
-    
+}
+
 
 @media screen and (min-width:1000px) {
-    .clearfix {
-        background-color: var(--clr-gray-10);
-    }
-    
     .skill {
         float: left;
         width: 25%;
     } 
-      
-
-
-
- 
+}
