@@ -88,13 +88,17 @@ Variables
     =================
  */
 
+ .navbar,.nav-btn {
+     display: none;
+ }
+
  /* ==========
     Header
     ========= */
 
 .header { 
     min-height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(../images/pexels-cup-of-couple-7657865.jpg)
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(../images/hero\ coffe1.jpg)
     center/cover
     no-repeat fixed; 
     position: relative;
