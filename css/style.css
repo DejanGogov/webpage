@@ -212,6 +212,7 @@ Variables
 .about-info {
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 5rem;
 }
 .about-img-cont {
     background: var(--clr-primery);
@@ -277,7 +278,12 @@ Variables
     margin-top: 3rem;
 }
 
-.product {
+.products-text {
+    padding: 2rem 0;
+    text-align: center;
+
+}
+.products-img {
     padding: 2rem 0;
     text-align: center;
 
@@ -287,7 +293,7 @@ Variables
     font-family: var(--ff-secondary);
 }
 .product-text {
-    max-width: 26rem;
+    max-width: 30rem;
     text-align: center;
     
 }
@@ -300,6 +306,7 @@ Variables
 
 .product-pic {
 transition: var(--transition);
+border-radius: 2rem;
 }
 
 .product-img:hover .product-pic {
@@ -307,14 +314,21 @@ transition: var(--transition);
     transform: scale(1.05);
 }
 
-.product-text1{
+.product-text1 {
     color: var(--clr-gray-5);
     font-weight: 700;
+ 
+}
+.product-text1 a{
+    color: var(--clr-gray-5);
+ 
 }
 
 
 
 /* Media Query  */
+
+/* About Section START */
 
 @media screen and (min-width:992px) {
     .about-img, .about-info {
@@ -337,6 +351,12 @@ transition: var(--transition);
         margin-top: 2rem;
         margin-left: 4rem;
     }
+    
+    /* About Section END */
+
+
+    
+
 
 }
 
@@ -344,19 +364,52 @@ transition: var(--transition);
 
 
 @media screen and (min-width:576px) {
+   /* ABOUT SECTION START */
     .skill {
         background-color: var(--clr-gray-10);
         float: left;
         width: 50%;  
     }
-  
+    /* ABOUT SECTION END */
 
+    
 }
 
 
 @media screen and (min-width:1000px) {
+   
+   /* SECTION ABOUT START */
     .skill {
         float: left;
         width: 25%;
     } 
+    /* SECTION ABOUT END */
+
+/* Section Our-Product START*/
+    
+.products {
+    margin: 10rem;
+}
+.products-text {
+    float: left;
+    width: 35%;
+    padding-top: 2rem;
+    margin-right: 2rem;
+    
+}
+.products-img {
+    float: left;
+    width: 20%;
+    padding-left: 1rem;
+}
+.product-title, .product-text {
+    text-align: justify;
+
+}
+
+.product-pic {
+    max-height: 14rem;
+}
+/* Section Our-Product END */
+
 }
