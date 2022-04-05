@@ -286,8 +286,20 @@ Variables
     font-family: var(--ff-secondary);
 }
 
+/* TEST E TAVA ZA DA VIDAM DALI E RESPONSIVE */
+@media screen and (min-width:576px) {
+    .about-img, .about-info{
+        background-color: var(--clr-white);
+        float: left;
+        width:50%;
+    }
+    .about-info {
+        margin-top: 1rem;
+    }
+}
 
-@media screen and (min-width:992px) {
+/* TEST E TAVA ZA DA VIDAM DALI E RESPONSIVE */
+@media screen and (min-width:1200px) {
     .about-img, .about-info {
         float: left;
         width: 50%;
@@ -295,7 +307,7 @@ Variables
         
     }
     .about-info {
-        padding-top: 5rem;
+        padding-top: 4.4rem;
         padding-left: 2rem;
         text-align: justify;
         
@@ -309,7 +321,34 @@ Variables
         margin-left: 4rem;
     }
 
-}
+} 
+
+
+
+ /* NAMERNO E NAPRAVENA COMENTAR OTI NEZNAM ZA SO E DADENA TAA DIMENZIJA JAS NAPRAVIH SO 576PX I SO 1200PX OTI MI SE POKLOPUVAT OBJEKTITE I IMAM GRESKI SAKAM DA VIDAM KAK IZGLEDE CELA 
+ @media screen and (min-width:992px) {
+    .about-img, .about-info {
+        float: left;
+        width: 50%;
+        
+        
+    }
+    .about-info {
+        padding-top: 4.4rem;
+        padding-left: 2rem;
+        text-align: justify;
+        
+    }
+    .about-text {
+        max-width: 25rem;
+    }
+
+    .about-img-cont { 
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+} */
 /* about section END */
 
 
@@ -368,28 +407,32 @@ border-radius: 2rem;
  
 }
 
+@media screen and (min-width:576px){
+    .products-text {
+        float: left;
+        width: 100%;
+}
 
+.product-text {
+    margin-left: 10rem;
+}
 
-/* Media Query  */
+.products-img {
+    float: left;
+    width: 33%;
+    padding-left:1rem
+}
+}
 
-/* About Section START */
-
-
-
-
-
-
-
-    /* SECTION ABOUT END */
-
-/* Section Our-Product START*/
 @media screen and (min-width:1200px) {
 .products {
-    margin: 10rem;
+    margin: 8rem;
+   
 }
 .products-text {
     float: left;
     width: 35%;
+    
     padding-top: 4rem;
     margin-right: 2rem;
     
@@ -397,16 +440,18 @@ border-radius: 2rem;
 .products-img {
     float: left;
     width: 20%;
-    padding-left: 1rem;
+    padding-left:1rem;
 }
 .product-title, .product-text {
     text-align: justify;
 
 }
+.product-text {
+    margin-left: 0rem;
+}
 
 .product-pic {
-    max-height: 14rem;
+    max-height:  16rem;
+}
 }
 /* Section Our-Product END */
-
-}
