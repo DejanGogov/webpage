@@ -198,19 +198,35 @@ Variables
     transform: translateY(-5px);    
 }
 
+
+@media screen and (min-width:576px) {
+    /* ABOUT SECTION START */
+     .skill {
+         background-color: var(--clr-gray-10);
+         float: left;
+         width: 50%;  
+     }
+ }
+ 
+ 
+ @media screen and (min-width:1200px) {
+    
+     .skill {
+         width: 25%;
+     } 
+    }
+
     /* Skils Section End */
       
-
-
-
 
 
 /* ==================
     About Section
    ================== */
 
-.about-img{
-    padding: 3rem 0;
+.about-img, 
+.about-info {
+    padding: 2rem 0;
 }
 
 .about-info {
@@ -270,6 +286,30 @@ Variables
     font-family: var(--ff-secondary);
 }
 
+
+@media screen and (min-width:992px) {
+    .about-img, .about-info {
+        float: left;
+        width: 50%;
+        
+        
+    }
+    .about-info {
+        padding-top: 5rem;
+        padding-left: 2rem;
+        text-align: justify;
+        
+    }
+    .about-text {
+        max-width: 25rem;
+    }
+
+    .about-img-cont { 
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+}
 /* about section END */
 
 
@@ -334,70 +374,23 @@ border-radius: 2rem;
 
 /* About Section START */
 
-@media screen and (min-width:992px) {
-    .about-img, .about-info {
-        float: left;
-        width: 50%;
-        background: var(--clr-white);
-        
-    }
-    .about-info {
-        padding-top: 5rem;
-        padding-left: 2rem;
-        text-align: justify;
-        
-    }
-    .about-text {
-        max-width: 25rem;
-    }
-
-    .about-img-cont { 
-        margin-top: 2rem;
-        margin-left: 4rem;
-    }
-    
-    /* About Section END */
-
-
-    
-
-
-}
 
 
 
 
-@media screen and (min-width:576px) {
-   /* ABOUT SECTION START */
-    .skill {
-        background-color: var(--clr-gray-10);
-        float: left;
-        width: 50%;  
-    }
-    /* ABOUT SECTION END */
-
-    
-}
 
 
-@media screen and (min-width:1000px) {
-   
-   /* SECTION ABOUT START */
-    .skill {
-        float: left;
-        width: 25%;
-    } 
     /* SECTION ABOUT END */
 
 /* Section Our-Product START*/
-    
+@media screen and (min-width:1200px) {
 .products {
     margin: 10rem;
 }
 .products-text {
     float: left;
     width: 35%;
-    padding-top: 2rem;
+    padding-top: 4rem;
     margin-right: 2rem;
     
 }
