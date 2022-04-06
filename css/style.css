@@ -517,13 +517,14 @@ Our Services Section START
     padding: 0.5rem 1.2rem;
     background-color: var(--clr-primery);
     position: absolute;
-    top: 17.8rem;
-    left: 12.8rem;
+    top: 14rem;
+    left: 10rem;
     
 }
 .service h2 {
     padding-top: 2rem;
 }
+
 
 @media screen and (min-width:576px) {
     .service {
