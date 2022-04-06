@@ -184,7 +184,7 @@ Variables
     
 .skill-text {
     color: var(--clr-gray-5);
-    max-width: 17rem;
+    max-width: 16rem;
     margin: 0 auto;
     
 }
@@ -306,6 +306,8 @@ Variables
         
         
     }
+
+    
     .about-info {
         padding-top: 4.4rem;
         padding-left: 2rem;
@@ -378,6 +380,7 @@ Variables
 .product-text {
     max-width: 30rem;
     text-align: center;
+
     
 }
 
@@ -406,11 +409,14 @@ border-radius: 2rem;
     color: var(--clr-gray-5);
  
 }
-
+/* DODADENO ZA TEST */
 @media screen and (min-width:576px){
+   
+
     .products-text {
         float: left;
         width: 100%;
+       
 }
 
 .product-text {
@@ -418,15 +424,18 @@ border-radius: 2rem;
 }
 
 .products-img {
+    
     float: left;
     width: 33%;
     padding-left:1rem
 }
 }
 
+
 @media screen and (min-width:1200px) {
 .products {
     margin: 8rem;
+    
    
 }
 .products-text {
@@ -437,6 +446,7 @@ border-radius: 2rem;
     margin-right: 2rem;
     
 }
+/* WIDHT 20% DODADENO ZA TEST */
 .products-img {
     float: left;
     width: 20%;
@@ -446,6 +456,7 @@ border-radius: 2rem;
     text-align: justify;
 
 }
+/* DODADENO ZA TEST */
 .product-text {
     margin-left: 0rem;
 }
@@ -455,3 +466,114 @@ border-radius: 2rem;
 }
 }
 /* Section Our-Product END */
+
+
+
+/* ==================
+Our Services Section START
+   ================== */
+.services {
+    margin:  2rem 0;
+    
+}
+
+.service-title { 
+    text-align: center;
+    padding: 2rem;
+}
+.service-title h3 { 
+    font-family: var(--ff-secondary);
+}
+
+.service {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: var(--clr-gray-10);
+    border-radius: 3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    position: relative;
+    transition: var(--transition);
+}
+
+.service:hover {
+    transform:translateY(10px)
+}
+
+.service-picture {
+    border-radius: 2rem;
+    max-width: 30rem;
+    transition: var(--transition);
+}
+.service-picture:hover { 
+    transform: scale(1.05);
+}
+
+.service-icon { 
+    font-size: 2rem;
+    color: var(--clr-white);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.5rem 1.2rem;
+    background-color: var(--clr-primery);
+    position: absolute;
+    top: 17.8rem;
+    left: 12.8rem;
+    
+}
+.service h2 {
+    padding-top: 2rem;
+}
+
+@media screen and (min-width:576px) {
+    .service {
+        float: left;
+        width: 28%;
+        margin-left: 2rem;
+    }
+
+    .service-icon {
+        top: 7rem;
+        left: 5rem;
+    }
+}
+
+@media screen and (min-width:1200px)  {
+    .services {
+        margin: 8rem;
+    }
+
+    .service { 
+        float: left;
+        width: 30%;
+        margin-left: 2rem;
+        
+    }
+
+    .service-title {
+        float: left;
+        width: 100%;
+    }
+    
+    .service-icon {
+        top: 11.5rem;
+        left: 8rem;
+    }
+}
+
+
+
+
+
+
+
+/* ==================
+Our Services Section END
+   ================== */
+
+
+
+
+
+
+
