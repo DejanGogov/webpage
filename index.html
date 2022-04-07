@@ -18,7 +18,9 @@
 
     <!-- Nav button -->
     <span class="nav-btn" id="nav-btn">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars">
+            
+        </i>
 
     </span>
 
@@ -116,7 +118,7 @@
             </div>
         </article>
     
-        <article class="about-info">
+        <article  class="about-info">
           <div class="section-title">
             <h3>About our</h3>
             <h2>Coffe Shop</h2>
@@ -177,6 +179,8 @@
 </section>
 
 <!-- END OF Our Products Section -->
+
+<!-- START of service Section  -->
 <section class="services">
     
     <div class="service-title">
@@ -225,15 +229,36 @@
         <h2>Service #3</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora cupiditate, odit voluptatem non recusandae.</p>
         <a href="#" class="about-btn">Read More</a>
-        
     </article>
 </section>
-
-<!-- OUR SERVICES SECTION START -->
-
-
-
-
 <!--OUR SERVICES SECTION END  -->
+
+
+<!-- CONTACT SECTION START -->
+
+<section class="contact">
+    
+</section>
+
+<!-- CONTACT SECTION END -->
+
+
+<script>
+    // setup nav
+    const navBtn = document.getElementById("nav-btn");
+    const navbar = document.getElementById("navbar");
+    const navClose = document.getElementById("nav-close");
+
+    // show nav
+    navBtn.addEventListener("click", () => {
+        navbar.classList.add("showNav");
+    });
+
+    // nav close
+    navClose.addEventListener("click", () => {
+        navbar.classList.remove("showNav");
+    });
+</script>
+
 </body>
 </html>
