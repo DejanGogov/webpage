@@ -11,6 +11,9 @@ FONTS
 Variables
 =================
  */
+ html{
+     scroll-behavior: smooth;
+ }
 
  :root {
      --clr-primery: #f5ae70;
@@ -86,6 +89,7 @@ Variables
  /* ==================
     navbar
     =================*/
+    
     .nav-btn {
         position: fixed;
         top: 2%;
@@ -150,7 +154,11 @@ Variables
         color: #ddbd65;
         padding-left: 1.5rem;
         border-left: 0.25rem solid var(--clr-primary);
+        
       }
+
+    
+
       @media screen and (min-width: 768px) {
         .navbar {
           width: 30vw;
@@ -590,7 +598,7 @@ Our Services Section START
 .service-icon { 
     font-size: 2rem;
     color: var(--clr-white);
-    border: 2px solid white;
+    border: 3px solid var(--clr-gray-10);
     border-radius: 50%;
     padding: 0.5rem 1.2rem;
     background-color: var(--clr-primery);
@@ -603,6 +611,24 @@ Our Services Section START
     padding-top: 2rem;
 }
 
+
+.arrow {
+    font-size: 2rem;
+    color: red;
+    position: relative;
+}
+.fa-arrow-up-long {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    color: #102a42;
+}
+.fa-arrow-up-long:hover{
+    padding: 1rem;
+    background-color: var(--clr-gray-1);
+    color: white;
+    border-radius: 3rem;
+}
 
 @media screen and (min-width:576px) {
     .services h3{
@@ -651,15 +677,69 @@ Our Services Section START
 }
 
 
-
-
-
-
-
 /* ==================
 Our Services Section END
    ================== */
 
+   .contact {
+    background: var(--clr-grey-10);
+  }
+  .contact-form,
+  .contact-info {
+    margin: 1rem 0;
+  }
+  .contact-item {
+    margin-bottom: 1.75rem;
+  }
+  .contact-title {
+    color: var(--clr-primary);
+    font-weight: 400;
+  }
+  .contact-text {
+    text-transform: uppercase;
+  }
+  .contact-form {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    max-width: 35rem;
+  }
+  .contact-form:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  .contact-form h3 {
+    padding-top: 1.25rem;
+    color: var(--clr-grey-5);
+  }
+  .form-group {
+    padding: 1rem 1.5rem;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    margin-bottom: 1.25rem;
+    background: var(--clr-grey-10);
+    border-radius: var(--radius);
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+  }
+  .form-control::placeholder {
+    font-family: var(--ff-primary);
+    color: var(--clr-grey-1);
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+  }
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
 
 
 
