@@ -630,6 +630,8 @@ Our Services Section START
     border-radius: 3rem;
 }
 
+
+
 @media screen and (min-width:576px) {
     .services h3{
         padding-top: 2rem;
@@ -675,12 +677,14 @@ Our Services Section START
   -ms-transform: translate(-50%, -50%);
     }
 }
-
-
 /* ==================
 Our Services Section END
    ================== */
 
+/* ==================
+    Contact START
+   ================== */
+   
    .contact {
     background: var(--clr-grey-10);
   }
@@ -741,6 +745,7 @@ Our Services Section END
     border-bottom-right-radius: var(--radius);
   }
 
+  /* Contact END */
 
 
 
