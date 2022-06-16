@@ -167,6 +167,10 @@ Variables
         
         
       }
+     .animate__animated .animate__fadeOutDown
+     {
+        animation-duration: 5s;
+     }
 
 
  /* ==========
