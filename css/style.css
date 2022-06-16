@@ -206,6 +206,7 @@ Variables
 
 .banner-btn {
     outline: 0.125rem solid var(--clr-white);
+    /* outline-offset: 0.25rem; - if we want white line over btn */
     font-size: 1.25rem;
     padding: 2rem 1.75rem;
     
