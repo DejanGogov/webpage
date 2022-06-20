@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6,p  {
+    margin: 0;
+    padding: 0;
+}
+
+
+.go-home {
+    text-decoration: none;
+    color:white
+}
+
+
+
+
+header {
+    background-attachment: fixed;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.4)), url(./pexels-pixabay-265856.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.test h3 {
+    font-size: 18px;
+    font-family: cursive, sans-serif;
+}
+
+.fa-solid {
+    font-size: 14px;
+    color:rgb(232, 255, 127);
+}
+
+#ime {
+    margin: 1rem;
+    
+}
+.btn {
+    animation: Test 0.5s infinite ;
+    
+    
+}
+.btn button {
+    color: rgb(232, 255, 127);
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid rgb(232, 255, 127);
+    border-radius: 25px;
+    padding: 7px 20px;
+    
+    
+}
+
+@keyframes Test {
+   
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+   
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+   
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+  
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.btn button:hover {
+    color: rgb(157, 189, 16);
+    border: 1px solid rgb(157, 189, 16);
+}
+
+
+form label input {
+    background-color: transparent;
+    border: 1px solid rgb(232, 255, 127);
+    border-radius: 25px;
+    padding: 3px 20px;
+
+}
+form input::placeholder {
+    color:white;
+    opacity: 0.6;
+}
+
+
+.ttt {
+    color:white;
+    text-align: center;
+}
+
+
+.t {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+#btn2 {
+    margin-top: 10px;
+
+    opacity: 0.7;
+    
+}
+
+#preloader {
+    background: #000 url(./new-loader-4.gif) no-repeat center center;
+    background-size: 7%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index:2 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* [class*="con"] {
+    padding: 1rem;
+    background-color: red;
+    border: 2px solid white;
+    color: #fff;
+    text-align: center;
+} */
+.offer-text {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+.cards img {
+width: 300px;
+
+   
+  
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+}
+
+
+
+.pone {
+    border: 1px solid red;
+    display: block;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    
+}
+
+
+
+
+
