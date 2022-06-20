@@ -76,13 +76,26 @@ header {
 
 }
 
-.offer4-img {
-    
+.cocktail {
+    display: flex;
+    flex-direction: column; 
+   
+}
+
+.cocktail-text h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.coctail-text-more a{
+    text-decoration: none;
+    color: rgb(100, 91, 91);
+}   
+.coctail-text-more a:hover {
+    color: red;
 
 }
 
-
-    
 }
 
 
@@ -91,6 +104,10 @@ header {
     .offer4-img {
         width: 60%;
         margin: auto;
+    }
+    
+    .coctail-text-more {
+        display: none;
     }
     
  }
@@ -271,11 +288,84 @@ header {
 }
 
 
+
+
+.cocktail-text {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.cocktail-text h6::after{
+    content: "!";
+    color: red;
+}
+
+
+.cocktail {
+   display: flex;
+   padding: 2rem;
+   text-align: center;
+
+
+}
+
+.cocktail-1-img , .cocktail-2-img, .cocktail-3-img,{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.cocktail-4-img {
+    width: 105%;
+}
+
+
+.cocktail-1-text p::after{
+    content: "( White rum, Lime juice, superfine Sugar )";
+}
+
+.cocktail-2-text p::after {
+    content: "( Rum, Chopped Strawberries, Lime Juice,coconut cream,pinapple juice,red orange slices)";
+}
+
+.cocktail-3-text p::after{
+    content: "( Vodka, Orange Juice,Grenadine syrup )";
+}
+
+.cocktail-4-text p::after {
+    content: "( Rum, Lime Juice, Limon Slices, Grenadine, orange juice )";
+}
+
+.cocktail-1-text h6 ,.cocktail-2-text h6 ,.cocktail-3-text h6,.cocktail-4-text  h6 {
+    font-weight: 100;
+}
+
+
+.arrow-top {
+    text-align: end;
+    font-size: 2rem;
+    color: rgb(185, 171, 171);
+    position: fixed;
+    margin-right: 1rem;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.arrow-top:hover {
+    color:rgb(109, 101, 101) ;
+    font-size: 2.2rem;
+}
+
+
 footer {
     text-align: center;
     height: 50px;
     margin-top: 2rem;
-    background-color: #f0e9d5;
+    background-color: #f1f1f1;
 }
 
 
