@@ -76,10 +76,24 @@ header {
 
 }
 
+.offer4-img {
+    
+
+}
+
 
     
 }
 
+
+@media screen and (min-width:577px)
+ {
+    .offer4-img {
+        width: 60%;
+        margin: auto;
+    }
+    
+ }
 
 
 
@@ -89,8 +103,8 @@ header {
 .hero-text h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-
 }
+
 .hero-text {
     text-align: center;
     letter-spacing: 4px;
@@ -234,7 +248,7 @@ header {
 .offer1-img, .offer2-img, .offer3-img, img {
     width: 100%;
     border-radius: 30px;
-    padding: 20px;
+    padding: 5px;
     
 }
 
@@ -255,9 +269,14 @@ header {
     text-align: center;
     margin-top: 40px ;
 }
-.offer4-img {
-    margin: auto;
-    width: 60%;
+
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 2rem;
+    background-color: #f0e9d5;
+}
 
 
 
