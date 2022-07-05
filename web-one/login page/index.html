@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+   <div class="login">
+
+    <form action="#">
+
+        <label for="Name" id="name">
+            Username: 
+        </label>
+        <input type="text" id="name1" placeholder="Your Name" required ><br>
+
+        <label for="password" id="password">Password:</label>
+        <input type="password" id="password1" placeholder="your password" required><br>
+
+
+        <input type="submit" value="Login" id="login">
+        <p id="login2"></p>
+        
+    </form>
+
+   </div>
+</div>
+
+
+
+<script>
+
+
+var x = document.getElementById("login");
+
+
+x.addEventListener("click", myFunction);
+
+
+
+
+function myFunction() {
+    let text = "Please Confirm?";
+    if (confirm(text) ==true) {
+        text = "Thank you on your confirmation";
+    }
+    else {
+        text ="We are sory about your decision";
+    }
+    document.getElementById("login2").innerHTML =text;
+}
+
+
+</script>
+
+    
+</body>
+</html>

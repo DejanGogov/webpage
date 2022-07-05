@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./beach\ cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.login {
+padding: 3.4rem;
+border-radius: 25px;
+/* border: 1px solid red; */
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2))
+}
+
+#password {
+    margin-right: 5px;
+}
+
+
+
+#name, #password {
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing:1.6px;
+    padding-right: 10px;
+    font-weight: 200;
+}
+
+#name1  {
+    color:wheat;
+    font-size: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: transparent;
+    border: 1px solid wheat;
+    outline: none;
+
+}
+
+#password1 {
+    margin-top: 1rem;
+    color: wheat;
+    font-size: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid wheat;
+    outline: none;
+
+}
+
+#name1::placeholder {
+    color: wheat;
+    opacity: 0.3;
+}
+#password1::placeholder {
+    color: wheat; 
+    opacity: 0.3;
+}
+
+#login {
+    padding: 10px 30px;
+    margin-top: 1.4rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: wheat;
+    border: 1px solid wheat;
+    cursor: pointer;
+    
+    
+}
+
+#login:hover{
+   color: rgb(185, 157, 105);
+   border: 1px solid  rgb(185, 157, 105);
+   background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3))
+}
+
+#login2 {
+    color: wheat;
+    margin-top: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+
+@media screen and (max-width:430px) {
+
+    .login {
+        padding: 1rem;
+        text-align: center;
+    }
+    #name1 {
+        margin-bottom:15px ;
+    }
+
+    #password1 {
+        margin-top: 3px;
+        
+    }
+}
